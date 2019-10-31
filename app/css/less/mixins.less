@@ -1,0 +1,43 @@
+.text(@font-family, @font-size, @color){
+  font-family: @font-family, sans-serif;
+  font-size: @font-size;
+  color: @color;
+  line-height: normal;
+}
+
+.link(@color:  #033772) {
+  color: @color;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab(@background-color, @height: 60px, @color: #033772) {
+  .flex-center;
+  .text('Open Sans Bold', 20px, #033772);
+  min-height: @height;
+  border-radius: 4px;
+  margin: 3px 0;
+  box-shadow: 12px 12px 15px -15px #033772;
+  color: @color;
+  background-color: @background-color;
+  text-align: center;
+  padding: 10px;
+}
+
+.text_block(@padding, @background-color: #f4f4f4) {
+  .text('Open Sans', 16px, #033772);
+  line-height: 1.8;
+  padding: @padding;
+  background-color: @background-color;
+}
+
+

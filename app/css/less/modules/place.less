@@ -1,0 +1,44 @@
+#place .nav__title {
+  .tab(#033772, 80px, #f4f4f4);
+}
+#place .nav-link.even {
+  .tab(#e8e8e8, 80px);
+}
+
+#place .nav-link.odd {
+  .tab(#c9ccd2, 80px);
+}
+
+.place {
+  margin: 3px 0;
+  position: relative;
+}
+
+.place__map {
+  box-shadow: 0px 5px 20px -10px #033772;
+  border-radius: 4px;
+  top: 0;
+  height: auto;  
+  position: absolute;
+  width: 0;
+  left: 0;  
+  transition: all 0.6s ease-in-out;
+  z-index: 20;
+  visibility: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;  
+  .text_block(10px 0);
+  font-size: 0;  
+}
+
+.place__map.active {
+  width: 100%;
+  visibility: visible; 
+  padding: 10px;
+  font-size: 16px;
+}
+
+.place__map a{
+ .link(#4692c5);
+}
+

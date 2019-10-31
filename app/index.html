@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antida school test</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"  type="text/css" href="css/lib/bootstrap.css">
+    <link rel="stylesheet"  type="text/css" href="css/lib/slick.css">
+    <link rel="stylesheet"  type="text/css" href="css/lib/slick-theme.css">
+    <link rel="stylesheet"  type="text/css" href="css/result_style.css">
+    <script src="js/lib/jquery-3.4.1.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="js/lib/bootstrap.js"></script>
+    <script src="js/lib/slick.js"></script>
+    <script src="js/script.js"></script>
+</head>
+    <body>
+        <header>
+            <div class= "logo">
+               <img class="logo__image" src="img/logotype.svg">
+            </div>
+            <nav class= "header__menu">
+                <ul class = "nav-list">
+                    <li class = "nav-list__item">
+                        <div class = "nav-list__item_link" >
+                            <i class="icon-home  nav-list__item_icon"></i>О себе
+                        </div>
+                        <div  class = "nav-list__item_text">
+                            Я, Бутакова Венера Салиховна, родилась 19 мая 1984 года в г. Челябинске.
+                            Зарегистрирована и проживаю по адресу г.Челябинск, Суркова д.23 кв.45.
+                            В 2001 году поступила в ЮУрГУ и в 2006 году закончила его с отличием,
+                            получив специальность "Городское строительство и хозяйство".
+                            С 2006 года работала в ООО "ЧелябПСК" инженером-проектировщиком.
+                            В 2016 году родилась дочь Ева. Было принято решение осваивать программирование.
+                            С апреля 2017 по август 2018 проходила курсы на обучающем ресурсе <a href="https://ru.hexlet.io" target ="_blank">Hexlet</a>.
+                            С сентября 2018 года по март 2019 года стажировалась в PIXITE. Зимой получила сертификат Bitrix-Framework
+                            CERT-EX-DEV-010-8658809-2550055-949561. С апреля и по нынешнее время работаю в ООО "Дабл Ю".
+                            Большое желание развиваться в своей профессии. Ответственная, целеустремленная, люблю искать и находить решения!
+                        </div>
+                    </li>
+                    <li class = "nav-list__item">
+                        <a class = "nav-list__item_link" href = "#education">
+                            <i class="icon-library  nav-list__item_icon"></i>Образование
+                        </a>
+                    </li>
+                    <li class = "nav-list__item">
+                        <a class = "nav-list__item_link" href = "#place">
+                            <i class="icon-user-tie  nav-list__item_icon"></i>Место работы
+                        </a>
+                    </li>
+                    <li class = "nav-list__item">
+                        <a class = "nav-list__item_link" href = "#work">
+                            <i class="icon-briefcase  nav-list__item_icon"></i>Опыт
+                        </a>
+                    </li>
+                    <li class = "nav-list__item">
+                        <a class = "nav-list__item_link" href = "#contacts">
+                            <i class="icon-phone  nav-list__item_icon"></i>Контакты
+                        </a>
+                    </li>
+                    <li class = "nav-list__burger">
+                        <i class="icon-menu  nav_list__item_icon"></i>
+                    </li>
+                </ul>
+                <ul class = "nav-mobile">
+                    <li class = "nav-mobile__item">
+                        <div class = "nav-mobile__item_link">
+                            <i class="icon-home  nav-mobile__item_icon"></i>О&nbsp;себе
+                            <i class="icon-arrow-right2  nav-mobile__item_icon"></i>
+                        </div>
+
+                    </li>
+                    <li class = "nav-mobile__item">
+                        <a class = "nav-mobile__item_link" href = "#education">
+                            <i class="icon-library  nav-mobile__item_icon"></i>Образование
+                        </a>
+                    </li>
+                    <li class = "nav-mobile__item">
+                        <a class = "nav-mobile__item_link" href = "#place">
+                            <i class="icon-user-tie  nav-mobile__item_icon"></i>Место работы
+                        </a>
+                    </li>
+                    <li class = "nav-mobile__item">
+                        <a class = "nav-mobile__item_link" href = "#work">
+                            <i class="icon-briefcase  nav-mobile__item_icon"></i>Опыт
+                        </a>
+                    </li>
+                    <li class = "nav-mobile__item">
+                        <a class = "nav-mobile__item_link" href = "#contacts">
+                            <i class="icon-phone  nav-mobile__item_icon"></i>Контакты
+                        </a>
+                    </li>
+                </ul>
+                <div  class = "nav-text">
+                    Я, Бутакова Венера Салиховна, родилась 19 мая 1984 года в г. Челябинске.
+                    Зарегистрирована и проживаю по адресу г.Челябинск, Суркова д.23 кв.45.
+                    В 2001 году поступила в ЮУрГУ и в 2006 году закончила его с отличием,
+                    получив специальность "Городское строительство и хозяйство".
+                    С 2006 года работала в ООО "ЧелябПСК" инженером-проектировщиком.
+                    В 2016 году родилась дочь Ева. Было принято решение осваивать программирование.
+                    С апреля 2017 по август 2018 проходила курсы на обучающем ресурсе
+                    <a href="https://ru.hexlet.io" target ="_blank">Hexlet</a>.
+                    С сентября 2018 года по март 2019 года стажировалась в PIXITE. Зимой получила сертификат Bitrix-Framework
+                    CERT-EX-DEV-010-8658809-2550055-949561. С апреля и по нынешнее время работаю в ООО "Дабл Ю".
+                    Большое желание развиваться в своей профессии. Ответственная, целеустремленная, люблю искать и находить решения!
+                </div>
+            </nav>
+        </header>
+        <div class="main">
+            <div class= "slide">
+                <img class= "slide__image" data-arrow = "Движение" src = "img/OkdJ2IHPKKM.jpg">
+                <img class= "slide__image" data-arrow = "Это" src = "img/iyLPg2sWzrs.jpg">
+                <img class= "slide__image" data-arrow = "Жизнь"  src = "img/rehAYCSVpQQ.jpg">
+            </div>
+            <div class="container">
+                 <div class="row">
+                    <div class= "col-12 mt-5" id="education">
+                        <div class="container">
+                            <div class="row">
+                                <div class="nav flex-column col-md-4  pr-0 pr-md-3">
+                                  <div class="nav__title">Образование</div>
+                                  <a class="even nav-link active" data-toggle="pill" href="#school">Лицей 77</a>
+                                  <a class="odd nav-link" data-toggle="pill" href="#univer">ЮУрГУ</a>
+                                  <a class="even nav-link" data-toggle="pill" href="#hexlet">Hexlet</a>
+                                  <a class="odd nav-link" data-toggle="pill" href="#bitrix">Bitrix</a>
+                                </div>
+                                <div class="nav__content tab-content col-md-8" >
+                                  <div class="tab-pane fade show active" id="school">1991 - 2001 гг.</br>1995г. - 3 место в районной предметной олимпиаде по математике</br>1996г. - победитель районной предметной олимпиады по математике
+                                  </div>
+                                  <div class="tab-pane fade" id="univer">2001 - 2006 гг. - с отличием</br>Архитектурно-строительный факультет</br>Специальность "Городское строительство и хозяйство"</div>
+                                    <div class="tab-pane fade" id="hexlet">2017 - 2018 гг. - Hexlet: Практические курсы по программированию</br><a href="https://ru.hexlet.io/u/venera" target="_blank">Профиль на Hexlet</a></br>Фронтенд JS-программист, Бэкенд JS-программист, PHP-программист</div>
+                                  <div class="tab-pane fade" id="bitrix">2019 гг. - <a href="https://dev.1c-bitrix.ru" target ="_blank">dev.1c-bitrix.ru</a></br>Bitrix-Framework</br>сертификат CERT-EX-DEV-010-8658809-2550055-949561</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class= "col-12 mt-5" id="place">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8  place  order-md-first order-last" >
+                                    <div class = "place__map active" id="psk">
+                                       Расчет и проектирование металлоконструкций, железобетонных конструкций. Инженер первой категории.
+            Примеры: расчет и проектирование монолитных перекрытий здания кинотеатра "Урал", проектирование усиления и разработка новых опор тепломагистрали от Челябинской ТЭЦ-2 до Челябинской ТЭЦ-1.
+                                    </div>
+                                    <div class = "place__map" id="pix">
+                                        Внедрение нового дизайна сайтов на Битрикс, изменение текущего дизайна, работа с инфоблоками, компонентами, шаблонами, верстка по макету psd, php для вывода соответствующих данных в шаблоне.</br>
+                                        <a href="http://dev.insit.ru" target ="_blank">dev.insit.ru</a></br><a href="http://itc174.ru" target ="_blank">itc174.ru</a></br><a href="http://railts.ru" target ="_blank">railts.ru</a>
+                                    </div>
+                                    <div class = "place__map"  id="www">
+                                        Создание сайтов на NetCat и программирование корпоративного сервиса сбора данных из amoCRM по количеству входящих, исходящих звонков и соответствующих контактов агентства недвижимости АН-МОСТ.</br> Внедрение верстки, работа с макетами, компонентами, инфоблоками:</br>
+                                        <a href="http://tdbpk-ural.ru" target ="_blank">tdbpk-ural.ru</a></br>
+                                        <a href="http://npk-ogneupor.ru/products" target ="_blank">npk-ogneupor.ru/products</a></br>
+                                        <a href="http://findbu.ru" target ="_blank">findbu.ru</a></br>
+                                        Внедрение верстки с Тильды и программирование:</br>
+                                        <a href="http://74.realty-chel.ru" target ="_blank">74.realty-chel.ru</a></br>
+                                        <a href="http://rtk174.ru" target ="_blank">rtk174.ru</a>
+                                        </br>
+                                    </div>
+                                </div>
+                                <div class="nav  flex-column col-md-4  pr-0 pl-md-3 order-md-last order-first">
+                                    <div class="nav__title">Место работы</div>
+                                    <a class="even nav-link active" data-toggle="pill"  href="#psk">ЗАО "ЧелябПСК"</br>2006 - 2016 гг.</a>
+                                    <a class="odd nav-link" data-toggle="pill" href="#pix"> PIXITE</br>сентябрь 2018 - март 2019 гг.</a>
+                                    <a class="even nav-link" data-toggle="pill" href="#www">ООО "Дабл Ю"</br>апрель 2019 - наст.время</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class= "col-12" id="work">
+                        <h2>Опыт</h2>
+                        <div class= "work">
+                            <a href = "http://74.realty-chel.ru"  target ="_blank"><img class= "slide__image" src = "img/Screenshot_1.png"></a>
+                            <a href = "http://findbu.ru"  target ="_blank"><img class= "slide__image" src = "img/Screenshot_2.png"></a>
+                            <a href = "http://tdbpk-ural.ru"  target ="_blank"><img class= "slide__image" src = "img/Screenshot_3.png"></a>
+                            <a href = "http://npk-ogneupor.ru/products"  target ="_blank"><img class= "slide__image" src = "img/Screenshot_4.png"></a>
+                            <a href = "http://rtk174.ru" target ="_blank"><img class= "slide__image" src = "img/Screenshot_5.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="contacts">
+            <div class= "logo">
+                <img class="logo__image" src="img/logotype1.svg">
+            </div>
+            <div class= "footer__text">
+                <div>
+                    <i class="icon-phone  nav-mobile__item_icon"></i>
+                    <a class="footer__text_item" href="tel:+7 (905) 836-51-69">+7 (905) 836-51-69</a>
+                </div>
+                <div>
+                    <i class="icon-whatsapp  nav-mobile__item_icon"></i>
+                    <a class="footer__text_item"  href="tel:+7 (905) 836-51-69">+7 (905) 836-51-69</a>
+                </div>
+                <div>
+                    <i class="icon-envelop  nav-mobile__item_icon"></i>
+                    <a class="footer__text_item"  href="mailto:v190584@mail.ru">v190584@mail.ru</a>
+                </div>
+                <i class="icon-arrow-up2  footer__text_icon"></i>
+            </div>
+
+        </footer>
+    </body>
+</html>

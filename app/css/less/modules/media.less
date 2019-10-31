@@ -1,0 +1,127 @@
+@media screen and (max-width: 992px) {
+  .nav-list {
+    align-items: center;
+  }
+  .nav-list__burger {
+    display: flex;
+    .text('Open Sans Bold', 40px, #033772);
+    cursor: pointer;
+  }
+
+  .nav-list__item {
+    display: none;
+  }
+  .nav-mobile, .nav-text {
+    .flex-column;
+    box-shadow: -10px 0 10px -5px rgba(0,0,0,.1);
+    background-color: transparent;
+    top: 75px;
+    height: auto;
+    position: absolute;
+    width: 0;
+    right: -50px;
+    transform: translate3d(100%,0,0);
+    transition: all .6s ease-in-out;
+    z-index: 20;
+    visibility: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .nav-mobile.active{
+    width: 300px;
+    visibility: visible;
+    transform: translate3d(0,0,0);
+  }
+
+  .nav-text {
+    top: 135px;
+    .text_block(10px 0);
+  }
+  .nav-text a {
+    .link(#4692c5);
+  }
+  .nav-text.active {
+    width: 360px;
+    visibility: visible;
+    transform: translate3d(0,0,0);
+    padding: 10px;
+
+  }
+
+  .nav-mobile__item {
+    padding: 15px 55px 15px 20px;
+    border-top: 1px solid #e8e8e8;
+    width: 100%;
+    text-align: left;
+    background-color: #f4f4f4;
+    height: 60px;
+  }
+
+  .nav-mobile__item:hover {
+    background-color: #f7eded;
+  }
+
+  .nav-mobile__item_link {
+    .text('Open Sans Bold', 20px, #033772);
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+  .icon-arrow-right2 {
+    margin-left: 100px;
+  }
+
+  .nav-mobile__item_link:hover, .nav-mobile__item_link:focus {
+    .link;
+  }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  header {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .header__menu, .footer__text {
+    flex-shrink: 1;
+  }
+  .nav-mobile, .nav-text {
+    right: -30px;
+  }
+
+  #work {
+    margin-top: 380px;
+  }
+
+  footer {
+    .flex-column;
+    align-items: center;
+  }
+
+  footer .logo {
+    max-width: 300px;
+    margin: 0;
+    flex: none;
+  }
+
+  .footer__text {
+    padding-right: 0;
+  }
+
+  .footer__text_icon {
+     right: -80px;
+  }
+
+}
+
+@media only screen and (max-width: 540px) {
+  #work {
+    margin-top: 450px;
+  }
+  .footer__text_item {
+    font-size: 16px;
+  }
+}

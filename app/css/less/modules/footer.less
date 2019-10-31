@@ -1,0 +1,38 @@
+footer {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  min-height: 75px;
+  background-color: #033772;
+}
+
+.footer__text{
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 60%;
+  align-items: flex-end;
+  position: relative;
+  color: #f4f4f4;
+  margin: 10px 0;
+  padding-right: 80px;
+}
+.footer__text div {
+  margin: 10px 0;
+  max-width: 300px;
+}
+
+.footer__text_item {
+  .text('Open Sans Bold', 20px, #f4f4f4);
+}
+
+.footer__text_item:hover, .footer__text_item:focus {
+  .link(#4692c5);
+}
+
+.footer__text_icon {
+  position: absolute;
+  font-size: 50px;
+  right: 0;
+  top: 40px;
+  cursor: pointer;
+}
